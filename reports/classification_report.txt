@@ -1,0 +1,13 @@
+=== Model Classification Report ===
+Student: Aditi Rewadkar | Roll No: DS75 | PRN: 2425010132
+Model: RandomForestClassifier (n_estimators=100, max_depth=5)
+
+              precision    recall  f1-score   support
+
+      setosa     1.0000    1.0000    1.0000        10
+  versicolor     0.8182    0.9000    0.8571        10
+   virginica     0.8889    0.8000    0.8421        10
+
+    accuracy                         0.9000        30
+   macro avg     0.9024    0.9000    0.8997        30
+weighted avg     0.9024    0.9000    0.8997        30

@@ -1,0 +1,10 @@
+{
+    "total_features": 4,
+    "drifted_features_count": 1,
+    "drifted_features": [
+        "petal length (cm)"
+    ],
+    "overall_status": "DRIFT_DETECTED",
+    "significance_threshold_alpha": 0.05,
+    "statistical_test": "Two-Sample Kolmogorov-Smirnov (KS) test"
+}
