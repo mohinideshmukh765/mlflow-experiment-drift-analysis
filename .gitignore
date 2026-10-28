@@ -42,7 +42,8 @@ mlruns/
 # Reference
 reference_images/
 
-# IDE files
+# IDE and Office files
+~$*
 .vscode/
 .idea/
 *.swp

@@ -1,5 +1,6 @@
 === Model Classification Report ===
-Student: Aditi Rewadkar | Roll No: DS75 | PRN: 2425010132
+Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071
+Email: mohinideshmukh786@gmail.com
 Model: RandomForestClassifier (n_estimators=100, max_depth=5)
 
               precision    recall  f1-score   support

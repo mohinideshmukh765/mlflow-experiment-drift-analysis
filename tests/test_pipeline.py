@@ -1,6 +1,7 @@
 """
 Unit and Integration Tests for MLflow Experiment Tracking & Drift Pipeline
-Student: Aditi Rewadkar | Roll No: DS75 | PRN: 2425010132
+Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071
+Email: mohinideshmukh786@gmail.com
 """
 
 import pytest

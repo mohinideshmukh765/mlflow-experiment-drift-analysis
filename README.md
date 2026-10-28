@@ -20,8 +20,9 @@ An end-to-end, reproducible **MLOps In-Semester Evaluation (ISE-2)** practical p
 
 | Attribute | Details |
 | :--- | :--- |
-| **Student Name** | Aditi Rewadkar |
-| **PRN / Roll Number** | 2425010132 (Roll No: DS75) |
+| **Student Name** | Mohini Deshmukh |
+| **PRN / Roll Number** | 2425010071 (Roll No: DS(76)) |
+| **Email** | mohinideshmukh786@gmail.com |
 | **Department / Class** | Department of CSE (Data Science) / Final Year B.Tech CSE (DS), Semester VII |
 | **Academic Year** | A.Y. 2026-27 |
 | **Institution** | Kolhapur Institute of Technology's College of Engineering (Autonomous), Kolhapur |

@@ -1,6 +1,7 @@
 """
 Main Pipeline Orchestrator: MLflow Experiment Tracking & Data Drift Analysis
-Author: Aditi Rewadkar | Roll No: DS75 | PRN: 2425010132
+Author: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071
+Email: mohinideshmukh786@gmail.com
 Academic Year: A.Y. 2026-27 | Department: B.Tech CSE (Data Science)
 """
 
@@ -19,7 +20,8 @@ from src.drift_detection import detect_data_drift, plot_distribution_drift, plot
 def main():
     print("=" * 70)
     print("  MLFLOW EXPERIMENT TRACKING & DATA DRIFT PIPELINE")
-    print("  Student: Aditi Rewadkar | Roll No: DS75 | PRN: 2425010132")
+    print("  Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071")
+    print("  Email: mohinideshmukh786@gmail.com")
     print("  Department: B.Tech CSE (Data Science) | A.Y. 2026-27")
     print("=" * 70)
     
@@ -37,9 +39,10 @@ def main():
     print(f"[+] Active MLflow Experiment: '{experiment_name}'")
     
     common_tags = {
-        "student_name": "Aditi Rewadkar",
-        "roll_number": "DS75",
-        "prn": "2425010132",
+        "student_name": "Mohini Deshmukh",
+        "roll_number": "DS(76)",
+        "prn": "2425010071",
+        "email": "mohinideshmukh786@gmail.com",
         "department": "B.Tech CSE (Data Science)",
         "academic_year": "A.Y. 2026-27",
         "course": "MLOps / ISE-2 Theory & Practical",
@@ -111,7 +114,8 @@ def main():
         report_path = os.path.join("reports", "classification_report.txt")
         with open(report_path, "w", encoding="utf-8") as f:
             f.write("=== Model Classification Report ===\n")
-            f.write(f"Student: Aditi Rewadkar | Roll No: DS75 | PRN: 2425010132\n")
+            f.write(f"Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071\n")
+            f.write(f"Email: mohinideshmukh786@gmail.com\n")
             f.write(f"Model: RandomForestClassifier (n_estimators={n_estimators}, max_depth={max_depth})\n\n")
             f.write(class_report_str)
         mlflow.log_artifact(report_path, artifact_path="reports")
