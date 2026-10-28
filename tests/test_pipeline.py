@@ -1,7 +1,7 @@
 """
 Unit and Integration Tests for MLflow Experiment Tracking & Drift Pipeline
-Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071
-Email: mohinideshmukh786@gmail.com
+Student: Shivam Korpade | Roll No: DS38 | PRN: 2324000756
+Email: shivamkorpade985@gmail.com
 """
 
 import pytest

@@ -1,7 +1,7 @@
 """
 Build Final Professional Word Document Report for MLflow & Data Drift ISE-2
-Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071
-Email: mohinideshmukh786@gmail.com
+Student: Shivam Korpade | Roll No: DS38 | PRN: 2324000756
+Email: shivamkorpade985@gmail.com
 Department: B.Tech CSE (Data Science) | A.Y. 2026-27
 """
 
@@ -212,8 +212,8 @@ def build_report():
             r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
             
     details_map = {
-        1: ("Student Name", "Mohini Deshmukh"),
-        2: ("Roll Number(s)", "2425010071  (Roll No: DS(76))"),
+        1: ("Student Name", "Shivam Korpade"),
+        2: ("Roll Number(s)", "2324000756  (Roll No: DS38)"),
         3: ("Department / Class", "Department of CSE (Data Science) / Final Year B.Tech CSE (DS), Sem VII"),
         4: ("Academic Year", "A.Y. 2026-27"),
         5: ("GitHub Repository URL", "https://github.com/mohinideshmukh765/mlflow-experiment-drift-analysis")
@@ -339,7 +339,7 @@ def build_report():
     add_body_p(doc, "The automated pipeline script (train_and_drift.py) orchestrated both runs sequentially. In Run 1, the script trained a 100-estimator Random Forest classifier on 120 training instances, logged all hyperparameters, computed weighted precision (0.9024), recall (0.9000), and F1-score (0.8997), and serialized the model artifact. In Run 2, the script partitioned the baseline data into reference (50%) and current shifted datasets (+1.8 cm synthetic drift), executed the two-sample Kolmogorov-Smirnov test across all features, logged KS statistics and p-values, and saved publication-grade distribution plots and CSV/JSON drift reports to MLflow.")
 
     add_screenshot_figure(doc, "screenshots/01_mlflow_training_runs.png", "Figure 1.2: MLflow Live Web UI Experiments Dashboard showing both tracked runs", 6.2)
-    add_screenshot_figure(doc, "screenshots/02_model_training_run.png", "Figure 1.3: Live MLflow Run Details for Model_Training_And_Evaluation with Student Tags (Mohini Deshmukh)", 6.2)
+    add_screenshot_figure(doc, "screenshots/02_model_training_run.png", "Figure 1.3: Live MLflow Run Details for Model_Training_And_Evaluation with Student Tags (Shivam Korpade)", 6.2)
     add_screenshot_figure(doc, "screenshots/03_data_drift_run.png", "Figure 1.4: Live MLflow Run Details for Data_Drift_Analysis showing Kolmogorov-Smirnov Test Metrics", 6.2)
     add_screenshot_figure(doc, "artifacts/model_confusion_matrix.png", "Figure 1.5: Multiclass Confusion Matrix Heatmap for Random Forest Classifier (Logged MLflow Artifact)", 4.5)
 

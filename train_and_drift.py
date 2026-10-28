@@ -1,7 +1,7 @@
 """
 Main Pipeline Orchestrator: MLflow Experiment Tracking & Data Drift Analysis
-Author: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071
-Email: mohinideshmukh786@gmail.com
+Author: Shivam Korpade | Roll No: DS38 | PRN: 2324000756
+Email: shivamkorpade985@gmail.com
 Academic Year: A.Y. 2026-27 | Department: B.Tech CSE (Data Science)
 """
 
@@ -20,8 +20,8 @@ from src.drift_detection import detect_data_drift, plot_distribution_drift, plot
 def main():
     print("=" * 70)
     print("  MLFLOW EXPERIMENT TRACKING & DATA DRIFT PIPELINE")
-    print("  Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071")
-    print("  Email: mohinideshmukh786@gmail.com")
+    print("  Student: Shivam Korpade | Roll No: DS38 | PRN: 2324000756")
+    print("  Email: shivamkorpade985@gmail.com")
     print("  Department: B.Tech CSE (Data Science) | A.Y. 2026-27")
     print("=" * 70)
     
@@ -39,10 +39,10 @@ def main():
     print(f"[+] Active MLflow Experiment: '{experiment_name}'")
     
     common_tags = {
-        "student_name": "Mohini Deshmukh",
-        "roll_number": "DS(76)",
-        "prn": "2425010071",
-        "email": "mohinideshmukh786@gmail.com",
+        "student_name": "Shivam Korpade",
+        "roll_number": "DS38",
+        "prn": "2324000756",
+        "email": "shivamkorpade985@gmail.com",
         "department": "B.Tech CSE (Data Science)",
         "academic_year": "A.Y. 2026-27",
         "course": "MLOps / ISE-2 Theory & Practical",
@@ -114,8 +114,8 @@ def main():
         report_path = os.path.join("reports", "classification_report.txt")
         with open(report_path, "w", encoding="utf-8") as f:
             f.write("=== Model Classification Report ===\n")
-            f.write(f"Student: Mohini Deshmukh | Roll No: DS(76) | PRN: 2425010071\n")
-            f.write(f"Email: mohinideshmukh786@gmail.com\n")
+            f.write(f"Student: Shivam Korpade | Roll No: DS38 | PRN: 2324000756\n")
+            f.write(f"Email: shivamkorpade985@gmail.com\n")
             f.write(f"Model: RandomForestClassifier (n_estimators={n_estimators}, max_depth={max_depth})\n\n")
             f.write(class_report_str)
         mlflow.log_artifact(report_path, artifact_path="reports")
